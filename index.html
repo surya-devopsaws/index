@@ -3,43 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>Premium Website</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            background-color: #f4f4f9;
+            color: #333;
         }
         header {
-            background-color: #4CAF50;
-            color: white;
+            background-color: #1a1a2e;
+            color: #fff;
             text-align: center;
-            padding: 1em;
+            padding: 1em 0;
         }
         nav {
             display: flex;
             justify-content: center;
-            background-color: #333;
+            background-color: #16213e;
         }
         nav a {
-            color: white;
+            color: #fff;
             padding: 14px 20px;
             text-decoration: none;
             text-align: center;
+            font-weight: bold;
         }
         nav a:hover {
-            background-color: #ddd;
-            color: black;
+            background-color: #0f3460;
         }
         .content {
             padding: 20px;
         }
         footer {
-            background-color: #333;
-            color: white;
+            background-color: #16213e;
+            color: #fff;
             text-align: center;
-            padding: 1em;
+            padding: 1em 0;
             position: fixed;
             bottom: 0;
             width: 100%;
@@ -47,24 +49,35 @@
         form {
             max-width: 400px;
             margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         form input, form textarea {
             width: 100%;
             padding: 10px;
-            margin: 5px 0;
+            margin: 10px 0;
             border: 1px solid #ccc;
             border-radius: 5px;
         }
         form input[type="submit"] {
-            background-color: #4CAF50;
-            color: white;
+            background-color: #1a1a2e;
+            color: #fff;
             border: none;
+            cursor: pointer;
+        }
+        form input[type="submit"]:hover {
+            background-color: #0f3460;
+        }
+        h2 {
+            color: #1a1a2e;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to My Website</h1>
+        <h1>Welcome to My Premium Website</h1>
     </header>
 
     <nav>
@@ -76,7 +89,7 @@
 
     <div class="content" id="home">
         <h2>Home</h2>
-        <p>This is the homepage. Welcome to my website!</p>
+        <p>This is the homepage. Welcome to my premium website!</p>
     </div>
 
     <div class="content" id="about">
@@ -103,7 +116,7 @@
     </div>
 
     <footer>
-        <p>&copy; 2024 My Website. All rights reserved.</p>
+        <p>&copy; 2024 My Premium Website. All rights reserved.</p>
     </footer>
 </body>
 </html>
