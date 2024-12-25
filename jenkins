@@ -13,7 +13,7 @@ pipeline {
 
             stage('Deploy') {
                 steps {
-                    // Deploy your application using sshPublisher
+                    // Deploy your application using sshPublisher in server
                     sshPublisher(publishers: [sshPublisherDesc(
                         configName: 'Jenkins',
                         transfers: [sshTransfer(
