@@ -21,12 +21,3 @@ variable "security_group" {
   type    = list(any)
   default = ["sg-0b6596681ec28a759", "sg-0c20fd6d57bc208fd"] //update
 }
-variable "qtree-web-tags" {
-  description = "A map of tags to assign to the instance" //update
-  type        = map(string)
-  default = {
-    Name        = "qtree-web"
-    Environment = "production"
-    Project     = "qtree"
-  }
-}
